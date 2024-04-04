@@ -92,13 +92,71 @@ body {
   text-align: center;
   padding: 2rem 0;
 }
- 
+
 .brand-image {
   height: 6rem;
 }
 
-
 .brand-images {
   display: flex;
   justify-content: space-around;
+}
+.about {
+  margin-top: 10rem;
+  height: 50rem;
+  display: flex;
+  gap: 10rem;
+}
+.about-flex {
+  display: flex;
+  gap: 2rem;
+}
+.shipping {
+  height: 5rem;
+  color: #183044;
+  display: inline-block;
+  padding-top: 1rem;
+}
+.free {
+  height: 4rem;
+}
+
+.about-icon {
+  font-size: 6rem;
+  color: #183044;
+  padding-top: 1rem;
+}
+
+.about-image {
+  box-shadow: 2rem 2rem rgba(171, 170, 170, 0.552);
+  height: 50rem;
+}
+.about-div {
+  padding: 5rem 10rem 10rem 5rem;
+  width: 50rem;
+}
+.about-heading {
+  font-size: 2.6rem;
+  color: #183044;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+.about-para {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+.about-list {
+  list-style: none;
+  padding: 2rem 0;
+}
+.about-list-heading {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #183044;
+}
+.about-list-para {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  color: #183044;
 }
