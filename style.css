@@ -81,3 +81,24 @@ body {
 .home-link:hover {
   text-decoration: underline;
 }
+.brands {
+  margin: 10rem 0;
+}
+
+.brand-heading {
+  color: #183044;
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 2rem 0;
+}
+ 
+.brand-image {
+  height: 6rem;
+}
+
+
+.brand-images {
+  display: flex;
+  justify-content: space-around;
+}

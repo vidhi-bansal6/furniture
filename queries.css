@@ -3,7 +3,12 @@
     padding: 3rem;
   }
 }
-
+.brands{
+    margin: 5rem 0;
+}
+.brand-image {
+    height: 5rem;
+}
 @media (max-width: 680px) {
   .hero {
     height: 90rem;
@@ -11,7 +16,7 @@
     flex-wrap: wrap;
   }
   .hero-image {
-    width: 100vw;
+    width: 50rem;
   }
 
   .home-div {
@@ -19,4 +24,27 @@
     padding: 3rem;
     width: 50rem;
   }
+  .brands{
+    margin: 3rem 0;
+}
+.brand-image {
+    height: 4.5rem;
+}
+}
+
+
+
+@media(max-width:480px){
+    .hero-image {
+        width: 100vw;
+      }
+    .brands{
+        margin: 3rem 0;
+    }
+    .brand-image {
+        height: 5rem;
+    }
+    .brand-heading{
+font-size: 2rem;
+    }
 }
