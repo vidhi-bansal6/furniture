@@ -1,0 +1,22 @@
+@media (max-width: 940px) {
+  .home-div {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero {
+    height: 90rem;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .hero-image {
+    width: 100vw;
+  }
+
+  .home-div {
+    margin: 0 auto;
+    padding: 3rem;
+    width: 50rem;
+  }
+}
