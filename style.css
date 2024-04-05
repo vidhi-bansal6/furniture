@@ -94,12 +94,13 @@ body {
 }
 
 .brand-image {
-  height: 6rem;
+  height: 10rem;
 }
 
 .brand-images {
   display: flex;
-  justify-content: space-around;
+  gap: 3rem;
+  margin-left: 15rem;
 }
 .about {
   margin-top: 10rem;
@@ -159,4 +160,69 @@ body {
   font-size: 1.6rem;
   text-transform: capitalize;
   color: #183044;
+}
+.card {
+  margin: 10rem 0;
+  height: 50rem;
+}
+.card-heading {
+  font-size: 2.7rem;
+  color: #183044;
+  text-transform: capitalize;
+  padding-bottom: 2rem;
+}
+.card-para {
+  width: 55vw;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+}
+.card-image {
+  height: 20rem;
+  width: 23vw;
+}
+.card-div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8rem;
+}
+.card-container {
+  height: 32rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(208, 207, 207, 0.552);
+}
+.card-icons-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+}
+.card-name {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: #183044;
+  padding-left: -3rem;
+}
+.card-price {
+  font-size: 1.8rem;
+  padding: 0 1rem;
+}
+.card-deal {
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #183044;
+  padding: 0.5rem 1rem;
+}
+.card-flex {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  text-transform: capitalize;
+}
+.card-icon {
+  font-size: 2rem;
+  background-color: rgb(230, 226, 226);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.orange-icon {
+  background-color: rgb(252, 112, 46);
 }

@@ -2,14 +2,22 @@
   .home-div {
     padding: 3rem;
   }
-}
-.brands {
-  margin: 5rem 0;
-}
-.brand-image {
-  height: 5rem;
-}
+  .brands {
+    margin: 2rem 0;
+  }
+  .brand-images {
+    height: 5rem;
+    margin: 1rem 2rem;
+  }
+  .about {
+    gap: 5rem;
+  }
 
+  .about-div {
+    padding: 1rem 5rem 2rem 2rem;
+    width: 100rem;
+  }
+}
 
 
 
@@ -36,6 +44,8 @@
   }
   .about {
     flex-wrap: wrap;
+    height: 100rem;
+    margin-bottom: 5rem;
   }
   .about-div {
     padding: 1rem 10rem 2rem 5rem;
@@ -49,6 +59,7 @@
   .about-para {
     font-size: 2rem;
     padding-bottom: 2rem;
+    text-align: center;
   }
   .about-list-heading {
     font-size: 2.2rem;
@@ -56,10 +67,40 @@
   .about-list-para {
     font-size: 1.8rem;
   }
+  .about-flex {
+    margin: 0 auto;
+  }
+  .card {
+    margin-top: 16rem;
+  }
+  .card-div {
+    flex-wrap: wrap;
+  }
+  .card-container {
+    height: 32rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(208, 207, 207, 0.552);
+  }
+  .card-heading {
+    font-size: 2.4rem;
+    color: #183044;
+    text-transform: capitalize;
+    padding-bottom: 1.6rem;
+    text-align: center;
+  }
+  .card-para {
+    width: 50vw;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .card-div {
+    gap: 4rem;
+  }
+  .card-image {
+    width: 60vw;
+  }
 }
-
-
-
 
 @media (max-width: 480px) {
   .hero-image {
@@ -88,6 +129,7 @@
   .about-para {
     font-size: 2rem;
     padding-bottom: 2rem;
+    text-align: center;
   }
   .about-list-heading {
     font-size: 2.2rem;
@@ -97,5 +139,26 @@
   }
   .about-image {
     width: 85vw;
+  }
+  .card {
+    margin-top: 18rem;
+  }
+  .card-heading {
+    text-align: center;
+  }
+  .card-para {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.6rem;
+  }
+  .card-image {
+    width: 50vw;
+  }
+  .card-div {
+    gap: 4rem;
+  }
+  .card-name {
+    font-size: 1.8rem;
+    padding-left: -3rem;
   }
 }
