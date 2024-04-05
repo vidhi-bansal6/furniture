@@ -112,6 +112,29 @@
   .furniture-span {
     padding: 0 2rem;
   }
+
+  .customer-image {
+    height: 20rem;
+    margin-bottom: 2rem;
+  }
+ .customer-section {
+    margin-top: 55rem;
+  }
+  .customer-heading {
+    font-size: 2rem;
+  }
+  .customer-para{
+    font-size: 1.4rem;
+  }
+  .customer-face-flex {
+    margin-left: 10rem;
+    padding-top: 1rem;
+  }
+  .customer-face {
+    height: 3rem;
+    border-radius: 50%;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -188,5 +211,26 @@
   }
   .furniture-grid {
     margin-top: 4rem;
+  }
+  .customer-section {
+    margin-top: 40rem;
+  }
+  .customer-heading {
+    font-size: 2rem;
+  }
+  .customer-image {
+    height: 20rem;
+    margin-bottom: 3rem;
+  }
+  .customer-para {
+    font-size: 1.2rem;
+  }
+  .customer-face-flex {
+    margin-left: 10rem;
+    padding-top: 1rem;
+  }
+  .customer-face {
+    height: 3rem;
+    border-radius: 50%;
   }
 }
