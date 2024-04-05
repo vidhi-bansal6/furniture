@@ -345,3 +345,45 @@ body {
   display: block;
   font-size: 1.2rem;
 }
+.subscibe{
+  height: 35rem;
+  margin-top: 6rem;
+}
+.subscribe-div{
+  height: 30rem;
+  background-color: rgb(232, 231, 231);
+  margin: 5rem auto;
+  width: 80rem;
+}
+.subscibe-heading{
+  text-align: center;
+  font-size: 2.6rem;
+  color: #183044;
+  padding-bottom: 2rem;
+  
+}
+.subscribe-para{
+  font-size: 1.4rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.subscriber-div{
+  width: 50rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.subscibe-input{
+  padding: 1rem 5rem;
+  margin-left: 15rem;
+  border: none;
+  color: #fff;
+  background-color: #183044;
+  border-radius: 0.9rem;
+  text-transform: capitalize;
+}
+.subscibe-input:hover{
+  background-color: white;
+}
+
+
+
