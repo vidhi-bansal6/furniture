@@ -103,6 +103,7 @@ body {
   margin-left: 15rem;
 }
 .about {
+  margin: 0 auto;
   margin-top: 10rem;
   height: 50rem;
   display: flex;
@@ -225,4 +226,78 @@ body {
 }
 .orange-icon {
   background-color: rgb(252, 112, 46);
+}
+
+.furniture {
+  height: 50rem;
+}
+.furniture-heading {
+  color: #183044;
+  font-size: 2.4rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.furniture-para {
+  display: inline-block;
+  font-size: 2rem;
+  padding-top: 3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.furniture-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+.furniture-grey {
+  color: rgb(175, 173, 173);
+}
+.furniture-blue {
+  color: #183044;
+  text-decoration: underline;
+}
+.furniture-span {
+  padding: 0 10rem;
+}
+.furniture-image {
+  height: 50rem;
+  border-top: 1rem solid #183044;
+  border-left: 1rem solid #183044;
+}
+
+.furniture-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 12rem);
+  width: 30rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  margin-top: 6rem;
+}
+.furniture-paras {
+  display: block;
+  font-size: 1.6rem;
+  border: 1px solid rgb(195, 193, 193);
+  padding: 1rem 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #183044;
+}
+.furniture-paras:hover {
+  scale: 1.1;
+}
+.kitchen {
+  color: white;
+  background-color: #183044;
+}
+.kitchen:hover {
+  background-color: #18304448;
+  color: #183044;
+}
+
+.furniture-icon {
+  display: block;
+  font-size: 3rem;
+  padding: 1rem 2rem;
 }

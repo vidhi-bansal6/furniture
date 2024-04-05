@@ -19,8 +19,6 @@
   }
 }
 
-
-
 @media (max-width: 680px) {
   .hero {
     height: 90rem;
@@ -71,7 +69,8 @@
     margin: 0 auto;
   }
   .card {
-    margin-top: 16rem;
+    margin: 16rem 0;
+    margin-bottom: 80rem;
   }
   .card-div {
     flex-wrap: wrap;
@@ -99,6 +98,19 @@
   }
   .card-image {
     width: 60vw;
+  }
+  .furniture {
+    margin: 10rem 0;
+  }
+  .furniture-image {
+    height: 40rem;
+  }
+  .furniture-para {
+    font-size: 1.6rem;
+    padding-top: 3rem;
+  }
+  .furniture-span {
+    padding: 0 2rem;
   }
 }
 
@@ -152,7 +164,7 @@
     font-size: 1.6rem;
   }
   .card-image {
-    width: 50vw;
+    width: 60vw;
   }
   .card-div {
     gap: 4rem;
@@ -160,5 +172,21 @@
   .card-name {
     font-size: 1.8rem;
     padding-left: -3rem;
+  }
+  .furniture {
+    margin: 20rem 0;
+  }
+  .furniture-image {
+    height: 30rem;
+  }
+  .furniture-para {
+    font-size: 1.4rem;
+    padding-top: 3rem;
+  }
+  .furniture-span {
+    padding: 0 1rem;
+  }
+  .furniture-grid {
+    margin-top: 4rem;
   }
 }
