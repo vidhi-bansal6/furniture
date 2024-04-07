@@ -345,34 +345,33 @@ body {
   display: block;
   font-size: 1.2rem;
 }
-.subscibe{
+.subscibe {
   height: 35rem;
   margin-top: 6rem;
 }
-.subscribe-div{
+.subscribe-div {
   height: 30rem;
   background-color: rgb(232, 231, 231);
   margin: 5rem auto;
   width: 80rem;
 }
-.subscibe-heading{
+.subscibe-heading {
   text-align: center;
   font-size: 2.6rem;
   color: #183044;
   padding-bottom: 2rem;
-  
 }
-.subscribe-para{
+.subscribe-para {
   font-size: 1.4rem;
   text-align: center;
   padding-bottom: 2rem;
 }
-.subscriber-div{
+.subscriber-div {
   width: 50rem;
   margin: 0 auto;
   padding-top: 5rem;
 }
-.subscibe-input{
+.subscibe-input {
   padding: 1rem 5rem;
   margin-left: 15rem;
   border: none;
@@ -381,75 +380,72 @@ body {
   border-radius: 0.9rem;
   text-transform: capitalize;
 }
-.subscibe-input:hover{
+.subscibe-input:hover {
   background-color: white;
 }
-footer{
-  height:38rem;
+footer {
+  height: 38rem;
   background-color: #183044;
   padding: 5rem;
-
 }
 
-.footers{
+
+.footers {
   color: #fff;
- 
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   column-gap: 2rem;
 }
-.footer-heading{
-text-transform: uppercase;
-font-size: 2.4rem;
-padding-bottom: 2rem;
-
+.footer-heading {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  padding-bottom: 2rem;
 }
-.footer-para{
-font-size: 1.8rem;
-padding-bottom: 2.6rem;
-color: gainsboro;
+.footer-para {
+  font-size: 1.8rem;
+  padding-bottom: 2.6rem;
+  color: gainsboro;
 }
-.footer-paras{
-  
-font-size: 2rem;
-padding-bottom: 1.8rem;
-color:gainsboro ;
+.footer-paras {
+  font-size: 2rem;
+  padding-bottom: 1.8rem;
+  color: gainsboro;
 }
-.footer-div{
+.footer-div {
   width: 40rem;
 }
-.footer-icons{
+.footer-icons {
   display: inline-block;
-  
-color: #fff;
-font-size: 2rem;
-padding-right: 1rem;
+
+  color: #fff;
+  font-size: 2rem;
+  padding-right: 1rem;
 }
-.footer-icons:hover{
+.footer-icons:hover {
   scale: 1.2;
 }
 
-.footer-list{
+.footer-list {
   list-style: none;
 }
-.footer-list-heading{
-text-transform: uppercase;
-font-size: 1.6rem;
-padding-bottom: 1.5rem;
+.footer-list-heading {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  padding-bottom: 1.5rem;
 }
-.footers-list{
+.footers-list {
   font-size: 1.4rem;
   color: gainsboro;
   text-transform: capitalize;
   padding-bottom: 1rem;
 }
-.footer-email{
+.footer-email {
   margin-top: 1.6rem;
   padding: 0.8rem 2rem;
-  background-color:gainsboro;
+  background-color: gainsboro;
   border: none;
 }
-.footer-cp{
+.footer-cp {
   font-size: 1.4rem;
   text-align: center;
   color: gainsboro;
