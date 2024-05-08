@@ -9,12 +9,20 @@ html {
 body {
   padding: 3.5rem;
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 .navbar {
-  height: 2rem;
+  background-color: #fff;
+  height: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0rem;
+  width: 100vw;
+  padding: 3rem;
+  padding-bottom: 4rem;
+  border-bottom: 1rem solid #183044;
 }
 .nav-heading {
   text-transform: uppercase;
@@ -40,6 +48,13 @@ body {
 }
 .nav-icon {
   font-size: 2rem;
+}
+
+.menu-btn i {
+  display: none;
+}
+#click {
+  display: none;
 }
 .hero {
   background-color: #183044;
@@ -389,7 +404,6 @@ footer {
   padding: 5rem;
 }
 
-
 .footers {
   color: #fff;
   display: grid;
@@ -449,5 +463,8 @@ footer {
   font-size: 1.4rem;
   text-align: center;
   color: gainsboro;
-  padding-top: 3rem;
+  padding-top: 2rem;
+}
+hr {
+  margin-top: 5rem;
 }
